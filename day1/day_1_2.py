@@ -15,7 +15,7 @@ def calorie_counter(file_name):
             else:
                 cur_line_calories = int(line)
                 cur_elf_calories += cur_line_calories
-    #return the sum of the highest calories for each elf
+
     return highest_calories
 
 print(calorie_counter('./elf_calories.txt'))

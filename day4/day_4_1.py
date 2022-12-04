@@ -31,5 +31,5 @@ for range in ranges:
     elf_counter_subset += 1
   if range_overlap(range1, range2):
     elf_counter_intersect += 1
-print("subset: ", elf_counter_subset)
-print("intersect: ", elf_counter_intersect)
+print("subsets: ", elf_counter_subset)
+print("intersects: ", elf_counter_intersect)
